@@ -8,4 +8,4 @@ class BooksController < ApplicationController
       @book = Book.find(params[:id])
       @reviews = @book.reviews
   end
-  
+end
